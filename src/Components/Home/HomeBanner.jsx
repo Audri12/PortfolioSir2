@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Home/homeBanner.css'
+import NavBar from '../Shared/Navbar/Navbar'
+import About from '../About/About'
 
 
 const HomeBanner = () => {
@@ -7,7 +9,7 @@ const HomeBanner = () => {
     <div>
     <div  className="homebanner justify-center bg-black px-[5%] lg:px-[12%] font-aldrich pb-12">
         <div className='px-0 lg:px-36 py-10'> 
-            {/* <NavBar></NavBar> */}
+            <NavBar></NavBar>
         </div>
         
         <div className="grid gap-5 sm:grid-cols-1 lg:grid-cols-2  mt-14 ">
@@ -86,6 +88,7 @@ const HomeBanner = () => {
         </div>
            {/* //About title */}
         {/* <AboutTittle></AboutTittle> */}
+        <About></About>
         
     </div>
  

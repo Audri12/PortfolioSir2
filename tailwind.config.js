@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        aldrich: ['Aldrich', 'sans-serif'],
+    
+      },
+      borderImage: {
+        'gradient-border': 'linear-gradient(to right, #a855f7, #ec4899)',
+      },
+    },
   },
   plugins: [],
 }
