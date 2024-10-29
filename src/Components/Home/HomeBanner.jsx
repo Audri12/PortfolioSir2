@@ -1,13 +1,13 @@
 import React from 'react'
 import '../Home/homeBanner.css'
 import NavBar from '../Shared/Navbar/Navbar'
-import About from '../About/About'
+
 
 
 const HomeBanner = () => {
   return (
     <div>
-    <div  className="homebanner justify-center bg-black px-[5%] lg:px-[12%] font-aldrich pb-12">
+    <div  className="homebanner justify-center bg-black px-[5%] lg:px-[12%] font-aldrich lg:pb-40  ">
         <div className='px-0 lg:px-36 py-10'> 
             <NavBar></NavBar>
         </div>
@@ -86,19 +86,13 @@ const HomeBanner = () => {
                 <p>Projects Completed</p>
             </div>
         </div>
-           {/* //About title */}
-        {/* <AboutTittle></AboutTittle> */}
-        <About></About>
+        
         
     </div>
  
 
   
-    {/* other sections */}
-                    {/* <AboutMeSection></AboutMeSection>
-                    <EducationSection></EducationSection>
    
-                     <Experience></Experience> */}
     </div>
   )
 }
