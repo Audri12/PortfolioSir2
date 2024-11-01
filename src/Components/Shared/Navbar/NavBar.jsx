@@ -29,14 +29,16 @@ const NavBar = () => {
             }`}
             onClick={() => setActiveIndex(1)}
           >
-            <Link to="/about">About Me</Link>
+           <a href = "/About" > 
             <span
               className={`absolute left-[-10px] right-[-10px] bottom-0 h-0.5 transition-all duration-300 ease-in-out ${
                 activeIndex === 1
                   ? "bg-gradient-to-r from-[#5411ff] to-[#b000c3]"
                   : "bg-transparent"
               }`}
+              
             ></span>
+            </a>
           </li>
           <li
             className={`relative h-full transition-all duration-200 ease-linear cursor-pointer hover:text-[#5411ff] ${
