@@ -1,4 +1,5 @@
 import React from 'react';
+import './Experience.css'
 
 const Experience = () => {
   return (
@@ -8,11 +9,11 @@ const Experience = () => {
         
 
        {/* Header Section */}
-       <div className='flex flex-col sm:flex-row pb-10 '>
-         <h1 className="text-4xl mr-8 cursor-pointer py-2">Education</h1>
-         <h1 className="text-4xl mr-8 cursor-pointer  border-[#a855f7] border-b-2 py-2">Experience</h1>
-         <h1 className="text-4xl mr-8 cursor-pointer py-2">Skills</h1>
-       </div>
+       <div className="flex flex-col sm:flex-row pb-10">
+  <h1 className="text-4xl mr-8 cursor-pointer py-2">Education</h1>
+  <h1 className="text-4xl mr-8 cursor-pointer py-2 gradient-border-b">Experience</h1>
+  <h1 className="text-4xl mr-8 cursor-pointer py-2">Skills</h1>
+</div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Experience Section */}
